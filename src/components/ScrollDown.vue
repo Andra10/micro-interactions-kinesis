@@ -1,19 +1,13 @@
 <template>
-        <div class="padding">
+  <div class="padding">
     <kinesis-container event="scroll" class="parent">
-      <kinesis-element
-        class="child"
-        type="rotate"
-        :strength="500"
-      />
+      <kinesis-element class="child" type="rotate" :strength="500" />
     </kinesis-container>
   </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {};
 </script>
 
 <style scoped>

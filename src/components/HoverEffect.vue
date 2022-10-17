@@ -1,23 +1,18 @@
 <template>
   <div>
     <kinesis-container class="parent">
-    <kinesis-element
-      class="child"
-      type="depth"
-      :strength="20"
-    />
-  </kinesis-container>
+      <kinesis-element class="child" type="depth" :strength="20" />
+    </kinesis-container>
   </div>
 </template>
 
 <script>
 export default {
-
-}
+  
+};
 </script>
 
 <style scoped>
-
 .parent {
   width: 100vw;
   height: 100vh;
